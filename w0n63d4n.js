@@ -1,3 +1,4 @@
+//script by w0n63d4n
 farbbibliothek = new Array(); 
 farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100"); 
 farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00"); 
@@ -48,7 +49,6 @@ farben[farben.length-1]=farben[-1];
 
 setTimeout("farbschrift()",30); 
 } 
-// Zu Demonstrationszwecken***************** 
 var farbsatz=1; 
 function farbtauscher() 
 { 
@@ -60,7 +60,7 @@ farben = farben.concat(farben);
 farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
 } 
 setInterval("farbtauscher()",5000); 
-text= "Indonesian Hacker, Zone-Xploit"; //h 
+text= "Indonesian people, Zone-Xploit"; //h 
 string2array(text); 
 divserzeugen();
 //document.write(text);
