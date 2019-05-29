@@ -60,7 +60,7 @@ farben = farben.concat(farben);
 farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
 } 
 setInterval("farbtauscher()",5000); 
-text= "Indonesian people, Zone-Xploit"; //h 
+text= "Indonesian people, Zone-Xploit";
 string2array(text); 
 divserzeugen();
 //document.write(text);
